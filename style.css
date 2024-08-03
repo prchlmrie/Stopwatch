@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+#heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    border: 3px solid;
+    border-radius: 50px;
+}
+
+#display{
+    font-size: 70px;
+    font-family: monospace;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: rgb(34, 26, 16);
+}
+
+#controls button{
+    font-size: large;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    min-width: 125px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s ease;
+}
+
+#startBtn{
+    background-color: rgb(13, 196, 13);
+}
+
+#startBtn:hover{
+    background-color: green;
+}
+
+#resetBtn{
+    background-color: rgb(94, 94, 239);
+}
+
+#resetBtn:hover{
+    background-color: blue;
+}
+
+#stopBtn{
+    background-color: rgb(255, 51, 51);
+}
+
+#stopBtn:hover{
+    background-color: red;
+}
